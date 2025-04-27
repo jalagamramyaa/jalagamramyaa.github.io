@@ -1,197 +1,135 @@
-
-<!--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <h1>Hello!</h1>  
-   <h2>This is Ramyaa</h2>
-   <h1>My Projects!</h1>
-    <h2><a href="p1.html">Project1</a></h2>
-   <h2><a href="p2.html">Project2</a></h2>-->
-    
-   <!DOCTYPE html>
-   <html lang="en">
-     <head>
+    <div class="header">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#about me">About</a>
+        <a href="#contacts">Contact</a>
+    </div>
 
-
-       <meta charset="UTF-8" />
-       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-       <title>About Me</title>
-       <link rel="icon" type="image/x-icon" href="assets/images/ball.png" />
-       <link rel="stylesheet" href="styles.css" />
-     </head>
-     <body>
-       <div class="container">
-         <div class="header-row"> 
-           <div class="box"><h1>JALAGAM RAMYA</h1></div>
-           <div class="box">
-             <ul>
-               <li><a href="#home">Home</a></li>
-               <li><a href="#projects">Projects</a></li>
-               <li><a href="#services">Services</a></li>
-               <li><a href="#about">About</a></li>
-   
-               <li><a href="#contact">Contact</a></li>
-             </ul>
-           </div>
-         </div>
-   
-         <div class="row" id="home">
-           <div style="display: flex;padding-top: 50px;">
-             <div class="box">
-               <h1>Full Stack Developer</h1>
-               <p1>
-                Hello! I'm <b>JALAGAM RAMYA</b>, a passionate full-stack developer who thrives on creating seamless, user-friendly applications. With expertise in both front-end and back-end technologies, I specialize in using JavaScript, React, and Node.js to build efficient and scalable solutions. I’m experienced in working with databases and enjoy tackling challenges to deliver high-quality, performance-driven results. Always eager to learn and expand my skill set, I’m committed to staying up-to-date with new technologies and continuously improving my craft.
-               </p1>
-
-               <br>
-               <p1>
-                    I work on both the front-end and back-end of web applications. I create user-friendly designs using React and build the functionality of the site using Node.js. I focus on ensuring that the website runs smoothly and efficiently, handling everything from how it looks to how it works behind the scenes. I also work with databases to store and manage information, and I always aim to create fast, secure, and reliable applications.
-               </p1>
-               <br>
-               <br>
-               <button>Resume</button>
-               <button>LinkedIn Profile</button>
-             </div>
-             <div class="box">
-               <img src="https://picsum.photos/id/2/400/400" />
-             </div>
-           </div>
-         </div>
-   
-         <div id="projects" class="row" style="background-color: lightcoral">
-           <h1>Projects</h1>
-           <div style="display: flex">
-             <div class="box">
-               <!--<h3>Project 1</h3>-->
-               <h2><a href="p1.html">Project1</a></h2>
-               <p>
-                A simple e-commerce website showcasing products with a clean, responsive layout. It features a header with navigation links, product displays with images and pricing, and a footer. Users can add products to their cart, offering a basic shopping experience.
-               </p>
-             </div>
-   
-             <div class="box">
-               <h3><a href="mybank.html/index.html">Project 2</a></h3>
-               <p>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                 quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-                 aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-                 Perspiciatis, ab.
-               </p>
-             </div>
-   
-             <div class="box">
-              <h3><a href="#">Project 3</a></h3>
-               <p>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                 quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-                 aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-                 Perspiciatis, ab.
-               </p>
-             </div>
-             <div class="box">
-              <h3><a href="testapp.html/index.html">Project 4</a></h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-                aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-                Perspiciatis, ab.
-              </p>
+    <section id="home">
+        <div>
+            <div class="content">
+                <h1>Hi I'm</h1>
+                <p style="font-size: 80px; color: black">Jalagam Ramya</p>
+                <div class="container">
+                    <h2 style="margin-right: 10px; font-size: 25px;">I Am a </h2><span class="typing"></span>
+                </div>
             </div>
-           </div>
-         </div>
-         <div id="services" class="row" style="background-color: lightblue">
-           <h1>Services</h1>
-           <div style="display: flex">
-             <div class="box">
-               <h3>Web App Development</h3>
-               <p>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                 quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-                 aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-                 Perspiciatis, ab.
-               </p>
-             </div>
-   
-             <div class="box">
-               <h3>Mobile App Development</h3>
-               <p>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                 quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-                 aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-                 Perspiciatis, ab.
-               </p>
-             </div>
-   
-             <div class="box">
-               <h3>Backend Development</h3>
-               <p>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                 quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-                 aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-                 Perspiciatis, ab.
-               </p>
-             </div>
-           </div>
-         </div>
-         <div id="about" class="row">
-           <h1>About</h1>
-           <h3>
-            I am a dedicated full-stack developer with a strong passion for both front-end and back-end technologies,coding and problem-solving. Currently, I am seeking new job opportunities where I can leverage my technical skills and grow professionally. 
-            I enjoy building efficient web applications. I'm eager to learn, grow, and contribute to meaningful projects.I am always eager to learn and stay updated with industry trends. Outside of work, I enjoy music, which helps me maintain focus and creativity. I pride myself on being detail-oriented, adaptable, and committed to delivering high-quality results in a timely manner.
-           </h3>
-           <h2>Skills</h2>
-           <h3>Java, Python, Reactjs,SQL</h3>
-           <p>Display the logo of all the technologies you know.</p>
-         </div>
-         <div
-           id="contact"
-           class="row"
-           style="background-color: lightgoldenrodyellow"
-         >
-           <h1>Contact</h1>
-           <div style="display: flex">
-            
-   
-             <div class="box">
-               <h3>Contact Form</h3>
-               <p>
-                <input type="text" placeholder="Enter Name">
-               </p>
-               <p>
-                 <input type="email" placeholder="Enter Email">
-                </p>
-                <p>
-                 <textarea rows="10" cols="60" placeholder="Enter message"></textarea>
-                </p>
-                <button>Send</button>
-             </div>
-   
-             <div class="box">
-               <h3>Your/Company Name</h3>
-               <p>
-                 <b>Address: </b>
-                 Mallapur,Habsiguda,Hyderabad,500076
-               </p>
-               <p>
-                 <b>Email Address: </b>ramyaa123123@gmail.com
-               </p>
-               <p>
-                 <b>Phone Number: </b>+919 
-               </p>
-             </div>
-           </div>
-         </div>
-         <div class="footer">@copyright 2024. All rights reserved.</div>
-       </div>
-     </body>
-   </html>
-   
+        </div>
+    </section>
 
+    <section id="projects">
+    <div class="row2">
+    <h1 style="display: flex; justify-content: center; padding: 5px; color:orange; font-size: 40px;">Projects</h1>
+    <div id="project">
+
+        <div class="project1">
+            <img src="./images/onlinestore.jpg">
+            <br><br>
+            <h2 >Online Store</h2>
+            <br>
+            <br><a href="p1.html" style="text-decoration: none; font-size: 15px; color: black;" ><button>View Project</button></a>
+        </div>
+
+        <div class="project2">
+            <img src="./images/facebook.png" style="width: 30% height: 100px;">
+            <br><br>
+            <h2>Facebook</h2>
+            <br>
+            <br><a href="mybank.html/index.htmt" style="text-decoration: none; font-size: 15px; color: black;"><button>View Project</button></a>
+        </div>
+
+        <div class="project3">
+            <img src="./images/mybank.jpg" style="border: 1px solid rgb(236, 228, 228);">
+            <br><br>
+            <h2 >Bank Project</h2>
+            <br>
+            <br><a href="mybank.html/index.html" style="text-decoration: none; font-size: 15px; color: black;"><button>View Project</button></a>
+        </div>
+    </div>
+    </div>
+    </section>
+    <hr>
+
+    <section id="services">
+    <div class="row3">
+        <h1 style="display: flex; justify-content: center; padding: 5px; color: rgb(94, 79, 79); font-size: 40px;">Services</h1>
+        <div id="service">
+            <div class="box1">
+                <h2>Web Development</h2>
+                <br>
+                <p>Building responsive and robust web applications using modern technologies.</p>
+            </div>
+            <div class="box2">
+                <h2>UI/UX Design</h2>
+                <br>
+                <p>Designing intuitive and engaging user interfaces for web and mobile.</p>
+            </div>
+            <div class="box3">
+                <h2>Backend Development</h2>
+                <br>
+                <p>Developing scalable server-side applications and APIs.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <hr>
+
+    <div class="row4">
+        <section id="about me">
+        <h1 style="display: flex; justify-content: center; padding: 5px; color: rgb(136, 112, 112); font-size: 40px;">About</h1>
+        <div id="about">
+                <p>Hello! I'm a passionate full-stack developer with a knack for building efficient, scalable, and user-friendly web applications. With expertise in both front-end and back-end development, I specialize in creating seamless digital experiences that combine functionality with aesthetics. <br><br>I have a strong foundation in modern web technologies, including HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB, as well as experience working with databases like MySQL and Firebase. I am proficient in responsive web design, ensuring that applications work flawlessly across various devices and screen sizes.</p>
+        </div>
+        </section>
+    </div>
+    <hr>
+
+    <section id="contacts">
+        <h1 style="display: flex; justify-content: center; padding: 5px; color: rgb(99, 84, 84); font-size: 40px;">Contact</h1>
+        <div class="row5">
+            <div id="forms">
+                <form>
+                    <br>
+                    <p>
+                        <input type="text" id="name" placeholder="Enter Name">
+                        <br><br>
+                    </p>
+                    <p>
+                        <input type="email" id="email" placeholder="Enter Email">
+                        <br><br>
+                    </p>
+                    <p>
+                        <textarea id="msg" name="mes" rows="6" cols="70" placeholder="Type your message here"></textarea>
+                        <br><br>
+                    </p>
+                    <br>
+                    <button>Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>CopyRights. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
+  <!-- <div>
+  <a href="p1.html"><img src="./images/onlinestore.jpg" alt="onlinestore" width="39%" height="250px"/></a> &nbsp;
+  <a href="mybank.html/index.html"><img src="./images/mybank.jpg" alt="myBank" width="39%" height="250px"/></a> 
+  </div>
+  <div class="row">
+   <a href="testapp.html/index.html"><img src="./images/facebook.png" alt="facebook"width="39%" height="250px"/> </a> &nbsp;
+   <a href="courses.html#course4"><img src="./images/store.jpg" alt="store" width="39%" height="250px"/> </a> 
+</div> -->
