@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="My Store - Online shopping for quality products."
+    />
+    <title>My Store</title>
+    <link rel="stylesheet" href="./p1styles.css" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>My Store</h1>
+      <input
+        type="checkbox"
+        id="nav-check"
+        class="nav-check"
+        aria-hidden="true"
+      />
+      <label
+        for="nav-check"
+        class="nav-toggle"
+        aria-label="Toggle navigation menu"
+        >☰</label
+      >
+      <nav aria-label="Main navigation" class="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="product-section">
+        <div class="product-grid">
+          <article class="product-card">
+            <img
+              src="./images/image 1.png"
+              alt="Product 1"
+              class="product-img"
+            />
+            <h2>Product 1</h2>
+            <p>Rs.199</p>
+            <button class="btn">Add to Cart</button>
+          </article>
+          <article class="product-card">
+            <img
+              src="./images/image 2.png"
+              alt="Product 2"
+              class="product-img"
+            />
+            <h2>Product 2</h2>
+            <p>Rs.299</p>
+            <button class="btn">Add to Cart</button>
+          </article>
+          <article class="product-card">
+            <img
+              src="./images/image 3.png"
+              alt="Product 3"
+              class="product-img"
+            />
+            <h2>Product 3</h2>
+            <p>Rs.146</p>
+            <button class="btn">Add to Cart</button>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="about-content">
+          <img
+            src="./images/image 4.png"
+            alt="About My Store"
+            class="about-img"
+          />
+          <div class="text-box">
+            <h2>About Our Store</h2>
+            <p>
+              Welcome to My Store, your one-stop destination for quality
+              products that blend style, functionality, and affordability.
+              Founded with a passion for delivering exceptional shopping
+              experiences, we curate a diverse range of items, from everyday
+              essentials to unique finds that spark joy. Our commitment to
+              excellence drives us to source products that meet the highest
+              standards, ensuring you receive value with every purchase.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section reverse">
+        <div class="about-content">
+          <div class="text-box">
+            <h2>Our Mission</h2>
+            <p>
+              Our mission at My Store is to empower customers with choices that
+              enhance their lives while fostering trust and sustainability. We
+              strive to create a shopping environment where everyone can
+              discover products that resonate with their needs and aspirations.
+              By prioritizing quality, affordability, and ethical sourcing, we
+              aim to build lasting relationships with our customers and
+              contribute positively to the communities we serve.
+            </p>
+          </div>
+          <img src="./images/image 4.png" alt="Our Mission" class="about-img" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 My Store. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store!</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .header {
+            justify-content: center;
+            background-color: orange;
+            display: flex;
+            align-items: center;
+        }
+        .header a{
+            text-decoration: none;
+        }
+
+        .header li {
+        display: inline-block;
+        padding: 10px;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+
+        .row {
+            justify-content: center;
+            background-color:blanchedalmond;
+            display: flex;
+            height: 600px;
+            align-items: center;
+        }
+
+        .row .box{
+            border: solid 5px silver;
+        padding: 10px;
+        margin: 10px;
+        width: 500px;
+        border-radius: 20px;
+        background-color:white;
+        }
+
+        .row2 {
+        display: flex;
+        justify-content: center;
+        background-color: aqua;
+        height:600px;
+        padding:100px;
+        align-items: center;
+      }
+      .row2 .box {
+        
+        width: 500px;
+        padding: 30px;
+        margin: 10px;
+        background: white;
+        height: 300px;
+        
+        
+      }
+      .footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      .row2 img {
+        padding:30px;
+        width: 500px;
+      }
+
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="header">
+            <div>
+                <h1>My Store</h1>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="row">
+                <div class="box">
+             <img src="image 4.png"/> 
+             <h3>Product 1</h3>
+             Rs.199<button>Add to cart</button>
+
+
+            </div>
+            <div class="box">
+                <img src="/images/image 2.png" /> 
+                <h3>Product 1</h3>
+                Rs.299<button>Add to cart</button>
+               </div>
+               <div class="box">
+                <img src="/images/image 3.png" /> 
+                <h3>Product 1</h3>
+                Rs.146<button>Add to cart</button>
+               </div>
+
+        </div>
+        </div>
+
+
+        <div class="row2">
+            <img src="/images/image 4.png" />
+            <div class="box" >
+              <h3>heading</h3>
+              <h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                molestiae aut doloremque iure quam amet voluptas! Nam, rerum aliquam
+                inventore enim ad eveniet voluptatibus id minus, quasi nobis omnis
+                et?
+              </h4>
+            </div>
+          </div>
+    
+          <div class="row2" style="background-color: bisque;">
+            <div class="box" >
+                <h3>heading</h3>
+                <h4>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                  molestiae aut doloremque iure quam amet voluptas! Nam, rerum aliquam
+                  inventore enim ad eveniet voluptatibus id minus, quasi nobis omnis
+                  et?
+                </h4>
+              </div>
+            
+              <img src="/images/4.png"/>
+           
+            
+          </div>
+    
+          <div class="footer">
+            <footer>@Copyright 2024. All rights reserved.</footer>
+          </div>
+    
+        </div>
+      </body>
+    </html> -->

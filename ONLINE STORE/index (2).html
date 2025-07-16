@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="My Store - Your one-stop online shop for electronics, fashion, and more. Shop now for quality products at great prices."
+    />
+    <title>My Store</title>
+    <link rel="stylesheet" href="./styles (2).css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/png" href="./images/logo.png" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <a href="#" class="logo">
+          <img src="./images/logo.png" alt="My Store Logo" />
+        </a>
+        <div class="search-bar">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search products..."
+            aria-label="Search products"
+          />
+          <button type="button" aria-label="Search">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <div class="user-actions">
+          <a href="#" aria-label="User account"
+            ><i class="fas fa-user"></i> Account</a
+          >
+          <a href="#" aria-label="Wishlist"
+            ><i class="fas fa-heart"></i> Wishlist</a
+          >
+          <a href="#" id="cart-icon" aria-label="Cart"
+            ><i class="fas fa-shopping-cart"></i> Cart (<span id="cart-count"
+              >0</span
+            >)</a
+          >
+        </div>
+      </div>
+      <input
+        type="checkbox"
+        id="nav-check"
+        class="nav-check"
+        aria-hidden="true"
+      />
+      <label
+        for="nav-check"
+        class="nav-toggle"
+        aria-label="Toggle navigation menu"
+        >☰</label
+      >
+      <nav aria-label="Main navigation" class="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#categories" class="nav-link">Categories</a></li>
+          <li><a href="#deals" class="nav-link">Deals</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="hero-content">
+          <h1>Discover Amazing Products</h1>
+          <p>
+            Shop the latest trends in electronics, fashion, and more at
+            unbeatable prices.
+          </p>
+          <a href="#products" class="btn">Shop Now</a>
+        </div>
+        <img
+          src="./images/hero-banner.jpg"
+          alt="Hero banner showcasing curated products"
+          class="hero-img"
+        />
+      </section>
+
+      <section id="categories" class="category-section">
+        <h2>Explore Categories</h2>
+        <div class="category-grid">
+          <a href="#" class="category-card">
+            <img
+              src="./images/electronics-icon.png"
+              alt="Electronics category icon"
+            />
+            <p>Electronics</p>
+          </a>
+          <a href="#" class="category-card">
+            <img src="./images/fashion-icon.png" alt="Fashion category icon" />
+            <p>Fashion</p>
+          </a>
+          <a href="#" class="category-card">
+            <img
+              src="./images/home-icon.png"
+              alt="Home & Kitchen category icon"
+            />
+            <p>Home & Kitchen</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="products" class="product-section">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+          <article class="product-card">
+            <img
+              src="./images/product-1.jpg"
+              alt="Smartphone X"
+              class="product-img"
+            />
+            <h3>Smartphone X</h3>
+            <p class="price">Rs.19,999</p>
+            <p class="rating">★★★★☆ (120 reviews)</p>
+            <button
+              class="btn add-to-cart"
+              data-id="1"
+              data-name="Smartphone X"
+              data-price="19999"
+            >
+              Add to Cart
+            </button>
+          </article>
+          <article class="product-card">
+            <img
+              src="./images/product-2.jpg"
+              alt="Wireless Headphones"
+              class="product-img"
+            />
+            <h3>Wireless Headphones</h3>
+            <p class="price">Rs.2,999</p>
+            <p class="rating">★★★★★ (85 reviews)</p>
+            <button
+              class="btn add-to-cart"
+              data-id="2"
+              data-name="Wireless Headphones"
+              data-price="2999"
+            >
+              Add to Cart
+            </button>
+          </article>
+          <article class="product-card">
+            <img
+              src="./images/product-3.jpg"
+              alt="Men's Jacket"
+              class="product-img"
+            />
+            <h3>Men's Jacket</h3>
+            <p class="price">Rs.1,499</p>
+            <p class="rating">★★★★☆ (60 reviews)</p>
+            <button
+              class="btn add-to-cart"
+              data-id="3"
+              data-name="Men's Jacket"
+              data-price="1499"
+            >
+              Add to Cart
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <h2>About My Store</h2>
+        <div class="about-content">
+          <img
+            src="./images/about-image.jpg"
+            alt="Team at My Store"
+            class="about-img"
+          />
+          <div class="text-box">
+            <p>
+              At My Store, we believe shopping should be seamless and enjoyable.
+              Our user-friendly platform is designed to make browsing,
+              selecting, and purchasing effortless, whether you're on your
+              desktop or mobile device.
+            </p>
+            <p>
+              Founded in 2025, we aim to make online shopping seamless and
+              trustworthy. With secure payments, fast delivery, and stellar
+              customer support, we’re here to make you smile with every
+              purchase.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>My Store</h3>
+          <p>Your trusted online shopping destination.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: support@mystore.com</p>
+          <p>Phone: +91 123 456 7890</p>
+        </div>
+      </div>
+      <p class="footer-bottom">© 2025 My Store. All Rights Reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
