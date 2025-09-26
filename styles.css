@@ -391,23 +391,6 @@ footer {
   width: 0;
   animation: typing 1s steps(15) infinite alternate, blink 10s infinite;
 }
-@keyframes typing {
-  0% { width: 0; }
-  50% { width: 100%; }
-  100% { width: 0; }
-}
-@keyframes blink {
-  50% { border-color: rgb(0, 255, 47); }
-}
-@keyframes changeText {
-  0%, 100% { content: "Full Stack Web Developer..  "; }
-}
-.typing::after {
-  animation: typing 5s steps(30) infinite alternate, blink 0.6s infinite, changeText 6s infinite;
-}
-
-
-
 /* 
 body{
   background-color: rgb(201, 201, 209);
